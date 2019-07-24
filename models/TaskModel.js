@@ -2,7 +2,7 @@ import Sequelize from 'sequelize'
 import db from '../database/db'
 
 export default db.sequelize.define(
-	'tasks', {
+	'tasks', { // Table name
 		id: {
 			type: Sequelize.INTEGER(5),
 			primaryKey: true,
