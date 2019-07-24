@@ -4,12 +4,13 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js --exec babel-node --",
-    "server": "nodemon server.js",
+    "server": "nodemon app.js --exec babel-node --",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^15.1.0",
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "body-parser": "^1.19.0",
