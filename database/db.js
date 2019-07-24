@@ -1,8 +1,9 @@
 import Sequelize from 'sequelize'
+import { dbName, user, pass, host } from '../config/config'
 
 const db = {}
-const sequelize = new Sequelize('node_task', 'root', '`', {
-	host: 'localhost',
+const sequelize = new Sequelize(dbName, user, pass, {
+	host,
 	dialect: 'mysql',
 	// operatorsAliases: false,
 	pool: {

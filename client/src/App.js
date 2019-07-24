@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import Users from './components/Users'
+import Tasks from './components/Tasks'
 
 export default class extends Component {
   render() {
@@ -9,7 +9,7 @@ export default class extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <Users />
+          <Tasks />
         </header>
       </div>
     )

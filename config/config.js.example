@@ -1,0 +1,4 @@
+export const dbName = 'your_database_name' //node_tasks
+export const user = 'your_username_to_login_database' //root
+export const pass = 'your_password' //mysecret
+export const host = 'yourhost' //localhost
