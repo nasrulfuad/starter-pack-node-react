@@ -1,6 +1,6 @@
-# Starter pack Express API with ReactJS
+## Starter pack Express API with Mysql and ReactJS
 
-Output should be like a pict at below
+#### Output should be like a pict at below
 
 ![](sample.png)
 
@@ -20,7 +20,7 @@ To run the server on your system:
 1. Run `yarn install` to install dependencies
 2. Go to client folder `./client/`
 3. Run `yarn install` to install dependencies
-4. Go back to the application folder `./Node-React-Starter-Pack` and run `yarn run dev` to start the pack
+4. Go back to the application folder `./Node-React-Starter-Pack/` and run `yarn run dev` to start the pack
 5. Happy Coding :)
 
 ## Authors
