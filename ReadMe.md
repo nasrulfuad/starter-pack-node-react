@@ -15,6 +15,7 @@ name varchar(50),
 ```
 
 To run the server on your system:
+
 0. Make sure you have edited the file `./config/config.js`
 1. Run `yarn install` to install dependencies
 2. Go to client folder `./client/`
