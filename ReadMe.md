@@ -21,7 +21,7 @@ To run the server on your system:
 2. Go to client folder `./client/`
 3. Run `yarn install` to install dependencies
 4. Go back to the application folder `./Node-React-Starter-Pack/` and run `yarn run dev` to start the pack
-5. Happy Coding :)
+5. Happy Coding Guys :)
 
 ## Authors
 
